@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "redis": "^4.5.1",
+    "stats-api": "^1.2.0"
+  }
+}

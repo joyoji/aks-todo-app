@@ -35,7 +35,7 @@ app.get('/stats', async function (req, res) {
     }
     res.send({
                 todosCreated: created || 0,
-                todosCompleted: completed || 0,
+                todosCompleted: completed || 100,
                 todosDeleted: deleted || 0
             });
 });

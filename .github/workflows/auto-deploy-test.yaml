@@ -11,8 +11,7 @@ env:
     CLUSTER_RESOURCE_GROUP: MyResourceGroup
     CONTAINER_NAME: image-workflow-1671156267934
     DEPLOYMENT_MANIFEST_PATH: |
-        ./stats-api/package-lock.json
-        ./stats-api/package.json
+        ./deployment.yaml
 jobs:
     buildImage:
         permissions:
